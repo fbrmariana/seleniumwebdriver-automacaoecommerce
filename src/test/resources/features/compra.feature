@@ -1,12 +1,14 @@
 # language: pt
 
-  Funcionalidade: Inserir Produto no carrinho
-    Eu como comprador do site da Renner
-    quero inserir um produto ao carrinho
-    para relizar uma compra
+@compra
+Funcionalidade: Realizar compra
+  Eu um cliente cadastrado no site automationpractice.com
+  quero realizar uma compra de 3 produtos
+  Para que eu possa estar bem vestida
 
-  Cenario: Inserir produto no carrinho
-    Dado que eu estou no site da Renner
-    Quando eu procurar um produto
-    E adiciona-lo ao carrinho
-    Então eu visualizo o produto no carrinho
+  @compra-sucesso
+  Cenario: Compra de produto
+    Dado que eu estou logada no site automationpractice.com
+    E pesquiso por um produto
+    Quando eu selecionar o produto pesquisado e adicona-lo ao carrinho
+    Então vejo o produto no carrinho para finalizar a minha compra

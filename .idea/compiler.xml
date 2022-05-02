@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="carrinho-de-compras" />
         <module name="shoppingcart1" />
         <module name="shoppingcart" />
       </profile>
