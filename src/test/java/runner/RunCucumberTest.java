@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 @CucumberOptions(
         plugin = {},
         features = {"src/test/resources/features"}, ///cadastro_usuario.feature"
-        tags = {"@cadastro-sucesso,@compra-sucesso"},
+        tags = {"@compra-sucesso"}, //@cadastro-sucesso
         glue = {"steps"}
 )
 public class RunCucumberTest extends RunBase{

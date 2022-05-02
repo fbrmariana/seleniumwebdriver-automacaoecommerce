@@ -4,8 +4,8 @@
 <h2 align="center"> Automação de Testes Ecommerce </h2>
 
 Esse projeto de automação de testes web contempla um 
-sistema para pesquisar e inserir um produto
-no carrinho de uma empresa de ecomerce
+sistema para pesquisar e inserir produtos
+no carrinho de uma empresa de ecomerce 
 
 #### Tecnologias utilizadas:
 
